@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Profil</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="logout.html">Déconnexion</a></li>
+                <li>
+                    <img id="profile-image" src="default-profile.jpg" alt="Profile Image" style="cursor: pointer;">
+                    <div id="profile-menu" class="dropdown-content">
+                        <a href="edit-profile.html">Modifier le profil</a>
+                        <a href="settings.html">Paramètres</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Changer la photo de profil</h2>
+        <input type="file" id="profile-image-input" accept="image/*">
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Réseau Social. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
